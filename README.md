@@ -30,18 +30,18 @@ Bios version: [F8c](https://www.gigabyte.com/ie/Motherboard/Z390-I-AORUS-PRO-WIF
 - Settings -> Miscellaneous -> Trusted Computing -> Security Device Support -> Disabled
 
 ### Usbs:
-HS01 : // USB 2 (type C): front left
-HS03 : // USB 2: back bottom left
-HS04 : // USB 2: back bottom center
-HS05 : // USB 2: back top right
-HS07 : // USB 2: back middle left
-HS08 : // USB 2: back middle right
-HS09 : // USB 2: front right
-HS10 : // USB 2: front middle
-SS01 : // USB 2 (type C): front left
-SS03 : // USB 3: back bottom left
-SS04 : // USB 3: back bottom center
-SS07 : // USB 3: back middle left
-SS08 : // USB 3: back middle right
-SS09 : // USB 3: front right
-SS10 : // USB 3: front middle
+- HS01 : // USB 2 (type C): front left
+- HS03 : // USB 2: back bottom left
+- HS04 : // USB 2: back bottom center
+- HS05 : // USB 2: back top right
+- HS07 : // USB 2: back middle left
+- HS08 : // USB 2: back middle right
+- HS09 : // USB 2: front right
+- HS10 : // USB 2: front middle
+- SS01 : // USB 2 (type C): front left
+- SS03 : // USB 3: back bottom left
+- SS04 : // USB 3: back bottom center
+- SS07 : // USB 3: back middle left
+- SS08 : // USB 3: back middle right
+- SS09 : // USB 3: front right
+- SS10 : // USB 3: front middle
