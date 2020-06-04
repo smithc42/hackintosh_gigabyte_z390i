@@ -1,0 +1,1 @@
+# hackintosh_gigabyte_z390i
