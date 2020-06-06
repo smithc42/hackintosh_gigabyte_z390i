@@ -7,7 +7,7 @@ Type|Item
 :----|:----
 **CPU** | Intel Core i5-9500k
 **CPU Cooler** | Noctua NH-U12S
-**Motherboard** | Gigabyte Z390i AORUS PRO WiFi
+**Motherboard** | Gigabyte Z390i Aorus Pro Wifi
 **Memory** | Crucial Ballistix Sport LT BLS2K16G4D32AESB 3200 MHz
 **Storage (macOS)** | WD SN750 500GB
 **Storage (Windows)** | Samsung SSD 750 EVO 250GB
