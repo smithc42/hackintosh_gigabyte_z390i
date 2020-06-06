@@ -45,3 +45,5 @@ Bios version: [F8c](https://www.gigabyte.com/ie/Motherboard/Z390-I-AORUS-PRO-WIF
 - SS08 : // USB 3: back middle right
 - SS09 : // USB 3: front right
 - SS10 : // USB 3: front middle
+
+[How to update OC versions](https://www.reddit.com/r/hackintosh/comments/gen0fm/on_how_i_updated_my_open_core_desktop_from_057_to/)
