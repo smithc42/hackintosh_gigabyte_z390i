@@ -1,4 +1,25 @@
-# hackintosh_gigabyte_z390i
+# Hackintosh | Gigabyte z390i Aorus Pro Wifi
+- Catalina 10.15.3
+- OC 0.5.7
+
+### Hardware
+Type|Item
+:----|:----
+**CPU** | Intel Core i5-9500k
+**CPU Cooler** | Noctua NH-U12S
+**Motherboard** | Gigabyte Z390i AORUS PRO WiFi
+**Memory** | Crucial Ballistix Sport LT BLS2K16G4D32AESB 3200 MHz
+**Storage (macOS)** | WD SN750 500GB
+**Storage (Windows)** | Samsung SSD 750 EVO 250GB
+**Video Card** | AMD RX580 8GB
+**WiFi + Bluetooth** | BCM943602CS with B+M Adapter in rear M2 slot
+**Case** | Lian Li TU150
+**Power Supply** | Corsair SF Series SF600 80 PLUS Gold SFX
+**Monitor** | BenQ PD2700U
+
+### Bios
+
+Bios version: [F8c](https://www.gigabyte.com/ie/Motherboard/Z390-I-AORUS-PRO-WIFI-rev-10/support#support-dl-bios)
 
 CFG-Lock must be turned off manually. Follow guide [here](https://dortania.github.io/OpenCore-Desktop-Guide/extras/msr-lock). When using UEFITool, the `CFG Lock` string can be found at the following path:
 
@@ -15,21 +36,20 @@ CFG Lock, VarStoreInfo (VarOffset/VarName): 0x5C1
 Command:
 `setup_var 0x5C1 0x00`
 
-Bios version: [F8c](https://www.gigabyte.com/ie/Motherboard/Z390-I-AORUS-PRO-WIFI-rev-10/support#support-dl-bios)
+#### Bios settings
 
-### Bios settings
-
-- CSM Support -> Disabled : Not working
-- Internal Graphics -> Enabled :  Working
-- Wi-Fi -> Disabled :  Working
-- Above 4G Decoding -> Enabled : Working
-- Wake on LAN Enable -> Disabled : Working
-- Settings -> USB Configuration -> Legacy USB Support -> Disabled : Working
-- Settings -> USB Configuration -> XHCI Hand-off -> Enabled : Working
-- Settings -> Miscellaneous -> Software Guard Extensions(SGX) -> Disabled : Working
+- Internal Graphics -> Disabled
+- Wi-Fi -> Disabled
+- Above 4G Decoding -> Enabled
+- Wake on LAN Enable -> Disabled
+- Settings -> USB Configuration -> Legacy USB Support -> Disabled
+- Settings -> USB Configuration -> XHCI Hand-off -> Enabled
+- Settings -> Miscellaneous -> Software Guard Extensions(SGX) -> Disabled
 - Settings -> Miscellaneous -> Trusted Computing -> Security Device Support -> Disabled
 
-### Usbs:
+Note: It's recommended to disable CSM Support, but disabling it prevents OC from booting, so it's enabled for now.
+
+### USB mapping:
 - HS01 : // USB 2 (type C): front left
 - HS03 : // USB 2: back bottom left
 - HS04 : // USB 2: back bottom center
@@ -46,4 +66,5 @@ Bios version: [F8c](https://www.gigabyte.com/ie/Motherboard/Z390-I-AORUS-PRO-WIF
 - SS09 : // USB 3: front right
 - SS10 : // USB 3: front middle
 
+### Misc
 [How to update OC versions](https://www.reddit.com/r/hackintosh/comments/gen0fm/on_how_i_updated_my_open_core_desktop_from_057_to/)
