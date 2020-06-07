@@ -75,5 +75,15 @@ Note: It's recommended to disable CSM Support, but disabling it prevents OC from
 - SS09 : // USB 3: front right
 - SS10 : // USB 3: front middle
 
+### Tooling
+
+#### [ProperTree](https://github.com/corpnewt/ProperTree)
+`git clone git@github.com:corpnewt/ProperTree.git`
+
+#### [MountEFI](https://github.com/corpnewt/MountEFI)
+`git clone https://github.com/corpnewt/MountEFI`
+
+#### [MaciASL](https://github.com/acidanthera/MaciASL/releases)
+
 ### Misc
 [How to update OC versions](https://www.reddit.com/r/hackintosh/comments/gen0fm/on_how_i_updated_my_open_core_desktop_from_057_to/)
