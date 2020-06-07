@@ -1,4 +1,4 @@
-# Hackintosh | Gigabyte z390i Aorus Pro Wifi
+# Hackintosh | Gigabyte z390i Aorus Pro Wifi / i5 9600k / AMD RX 580 / 32GB
 - Catalina 10.15.3
 - OC 0.5.7
 
