@@ -27,6 +27,11 @@ CFG-Lock must be turned off manually. Follow guide [here](https://dortania.githu
 Intel image -> BIOS region -> 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916 -> 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792 -> LzmaCustomDecompressGuid -> Volume image section -> 5C60F367-A505-419A-859E-2A4FF6CA6FE5 -> Setup
 ```
 
+Add the follwing in `EFI/OC/Tools` folder and config.plist:
+
+- [VerifyMsrE2](https://github.com/acidanthera/OpenCorePkg/releases)
+- [Modified GRUB Shell](https://github.com/datasone/grub-mod-setup_var/releases)
+
 CFG Offset:
 
 ```
@@ -38,12 +43,12 @@ Command:
 
 #### Bios settings
 
-- Internal Graphics -> Disabled
-- Wi-Fi -> Disabled
-- Above 4G Decoding -> Enabled
-- Wake on LAN Enable -> Disabled
-- Settings -> USB Configuration -> Legacy USB Support -> Disabled
-- Settings -> USB Configuration -> XHCI Hand-off -> Enabled
+- Settings -> I0 Ports -> Internal Graphics -> Disabled
+- Settings -> I0 Ports -> Wi-Fi -> Disabled
+- Settings -> I0 Ports -> Above 4G Decoding -> Enabled
+- Settings -> I0 Ports -> Wake on LAN Enable -> Disabled
+- Settings -> I0 Ports -> USB Configuration -> Legacy USB Support -> Disabled
+- Settings -> I0 Ports -> USB Configuration -> XHCI Hand-off -> Enabled
 - Settings -> Miscellaneous -> Software Guard Extensions(SGX) -> Disabled
 - Settings -> Miscellaneous -> Trusted Computing -> Security Device Support -> Disabled
 
