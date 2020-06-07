@@ -59,17 +59,17 @@ Execute the following in Modified GRUB Shell:
 Note: It's recommended to disable CSM Support, but disabling it prevents OC from booting, so it's enabled for now.
 
 ### USB mapping:
-- HS01 : // USB 2 (type C): front left
 - HS03 : // USB 2: back bottom left
-- HS04 : // USB 2: back bottom center
+- HS04 : // USB 2: back bottom right
 - HS05 : // USB 2: back top right
 - HS07 : // USB 2: back middle left
 - HS08 : // USB 2: back middle right
 - HS09 : // USB 2: front right
 - HS10 : // USB 2: front middle
+- HS11 : // M2: internal Wifi/BT card
 - SS01 : // USB 2 (type C): front left
 - SS03 : // USB 3: back bottom left
-- SS04 : // USB 3: back bottom center
+- SS04 : // USB 3: back bottom right
 - SS07 : // USB 3: back middle left
 - SS08 : // USB 3: back middle right
 - SS09 : // USB 3: front right
