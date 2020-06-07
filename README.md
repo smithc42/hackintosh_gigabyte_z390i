@@ -20,6 +20,7 @@ Type|Item
 ### Bios
 
 Bios version: [F8c](https://www.gigabyte.com/ie/Motherboard/Z390-I-AORUS-PRO-WIFI-rev-10/support#support-dl-bios)
+Bios profile: [Z390IAPW.F8c](/BIOS/Z390IAPW.F8c)
 
 CFG-Lock must be turned off manually. Follow guide [here](https://dortania.github.io/OpenCore-Desktop-Guide/extras/msr-lock). When using UEFITool, the `CFG Lock` string can be found at the following path:
 
