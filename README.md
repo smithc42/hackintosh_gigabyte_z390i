@@ -28,10 +28,12 @@ CFG-Lock must be turned off manually. Follow guide [here](https://dortania.githu
 Intel image -> BIOS region -> 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916 -> 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792 -> LzmaCustomDecompressGuid -> Volume image section -> 5C60F367-A505-419A-859E-2A4FF6CA6FE5 -> Setup
 ```
 
-To disable CFG-Lock and verify its disabled, add the following in `EFI/OC/Tools` folder and config.plist"
+To disable CFG-Lock and verify its disabled, add the following in `EFI/OC/Tools` folder and config.plist:
 
 - [VerifyMsrE2](https://github.com/acidanthera/OpenCorePkg/releases)
 - [Modified GRUB Shell](https://github.com/datasone/grub-mod-setup_var/releases)
+
+Once its disabled we can remove both from our EFI.
 
 CFG Offset:
 
