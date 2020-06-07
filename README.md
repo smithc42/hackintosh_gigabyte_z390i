@@ -42,6 +42,7 @@ CFG Lock, VarStoreInfo (VarOffset/VarName): 0x5C1
 ```
 
 Execute the following in Modified GRUB Shell:
+
 `setup_var 0x5C1 0x00`
 
 #### Bios settings
