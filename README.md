@@ -59,7 +59,7 @@ Execute the following in Modified GRUB Shell:
 
 Note: It's recommended to disable CSM Support, but disabling it prevents OC from booting, so it's enabled for now.
 
-### USB mapping:
+### USB mapping (based on [this](https://github.com/markosmk/Pynty-Hackintosh-Gigabyte-Z390-I-Aorus-Pro-Wifi/blob/master/images/portsusb.jpg) image):
 - HS03 : // USB 2: back bottom left
 - HS04 : // USB 2: back bottom right
 - HS05 : // USB 2: back top right
