@@ -1,5 +1,5 @@
 # Hackintosh | Gigabyte z390i Aorus Pro Wifi
-- Catalina 10.15.3
+- Catalina 10.15.6
 - Windows 10
 - OC 0.5.9
 
